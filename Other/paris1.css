@@ -1,0 +1,30 @@
+h1 {
+    color: aqua;
+    font-family: "Arial Unicode MS";
+}
+h2 {
+    color: red;
+    font-family: "Baskerville Old Face";
+}
+p {
+    color: cornflowerblue;
+    font-family: "Times New Roman";
+}
+img{
+    width: 600px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.frame1 {
+    border: 4px solid coral;
+}
+.frame2 {
+    border: 4px solid rosybrown;
+}
+div {
+    border: 2px solid gray;
+    width: 300px;
+}
+ul {
+    font-size: 20px;
+}

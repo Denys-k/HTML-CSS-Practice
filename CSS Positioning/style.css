@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.container{
+    height: 250vh;
+    background-color: lightskyblue;
+    position: relative;
+}
+.main-slider {
+    height: 300px;
+    width: 100%;
+}
+.header {
+    height: 40px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
+input[type="button"] {
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border: 0;
+    margin-top: 5px;
+    outline: none;
+}
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: #000055;
+    transition: 0.3s;
+}
+.left-buttons, .right-buttons {
+    display: inline-block;
+}
+.right-buttons {
+    float: right;
+}
+.article-img {
+    width: 40%;
+    margin: 0 10px;
+    float: left;
+}
+.article {
+    display: inline;
+}
+.article > h3 {
+    text-align: center;
+}
+.article > p {
+    text-align: justify;
+}
+.main-content {
+    margin: 0 15%;
+}
+
+

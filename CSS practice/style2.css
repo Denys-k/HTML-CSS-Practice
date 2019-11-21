@@ -1,0 +1,14 @@
+body {
+    width: 100%; /*to center picture*/
+    height: 100vh; /*to center picture*/
+    background-image: url("image.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; /*to center picture*/
+    background-size: cover;
+}
+header {
+    width: 100%;
+    height: 70px;
+
+}

@@ -1,0 +1,94 @@
+body {
+    width: 100%; /*to center picture*/
+    height: 100vh; /*to center picture*/
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; /*to center picture*/
+    background-size: cover;
+}
+.iphone {
+    position:fixed;
+    top: 45%;
+    left: 50%;
+    width:417px;
+    height:730px;
+    margin-top: -20em; /*set to a negative number 1/2 of your height*/
+    margin-left: -13em; /*set to a negative number 1/2 of your width*/
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.first_block {
+    position: absolute;
+    left: 46px;
+    top: 170px;
+    width: 322px;
+    height: 80px;
+    border: 3px solid #284284;
+    border-radius: 30px;
+    background: rgba(0, 209, 255, 0.5);
+/*text inside div*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    font-family: "Arial Black";
+    font-size: 36px;
+}
+img {
+    position: absolute;
+    left: 140px;
+    top: -30px;
+    width: 140px;
+    height: 240px;
+}
+form {
+    position: absolute;
+    left: 110px;
+    top: 310px;
+    width: 140px;
+    height: 240px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    height: 10px;
+    width: 150px;
+    border: 2px solid aqua;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    height: 10px;
+    width: 150px;
+    border: 2px solid aqua;
+    border-radius: 4px;
+}
+input[type=checkbox] {
+    padding: 12px 20px;
+    margin: 20px 0;
+
+}
+input[type=button] {
+    width: 195px;
+    margin: 10px 0;
+    border-radius: 30px;
+    background: whitesmoke;
+    height: 35px;
+}
+.block1 {
+    position: absolute;
+    top: 650px;
+    left: 150px;
+}
+.block2 {
+    position: absolute;
+    top: 680px;
+    left: 145px;
+}
+

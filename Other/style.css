@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*div{*/
+/*    font-family: "Comic Sans MS";*/
+/*}*/
+/*.mainHeader{*/
+/*    color: #ef4521;*/
+/*    height: 230px;*/
+/*    font-size: 25px;*/
+/*    text-align: center;*/
+/*}*/
+/*.background{*/
+/*    background: aqua;*/
+/*}*/
+/*#inner-text{*/
+/*    background: blueviolet;*/
+/*}*/
+
+/* 1. Id
+   2. Class
+   3. Tags
+   * - to style all atributes/tags
+   !important - to make one style more important than class/id
+ */
