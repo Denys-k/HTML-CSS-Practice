@@ -8,20 +8,16 @@ body {
     background-size: cover;
 }
 .iphone {
-    position:fixed;
-    top: 45%;
-    left: 50%;
+    margin: 0 auto;
+    position: relative;
     width:417px;
     height:730px;
-    margin-top: -20em; /*set to a negative number 1/2 of your height*/
-    margin-left: -13em; /*set to a negative number 1/2 of your width*/
     border: 3px solid black;
     border-radius: 20px;
 }
 .first_block {
     position: absolute;
-    left: 46px;
-    top: 170px;
+    margin: 170px 46px;
     width: 322px;
     height: 80px;
     border: 3px solid #284284;
@@ -36,23 +32,21 @@ body {
 }
 img {
     position: absolute;
-    left: 140px;
-    top: -30px;
+    margin: -30px 0px 30px 139px;
     width: 140px;
     height: 240px;
 }
 form {
     position: absolute;
-    left: 110px;
-    top: 310px;
-    width: 140px;
-    height: 240px;
+    padding: 10px;
+    margin: 300px 0px 0px 100px;
+    width: 200px;
+    height: 300px;
     font-family: Arial;
     font-weight: bold;
 
 }
 input[type=text] {
-    width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
     height: 10px;
@@ -61,7 +55,6 @@ input[type=text] {
     border-radius: 4px;
 }
 input[type=password] {
-    width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
     height: 10px;
@@ -83,12 +76,10 @@ input[type=button] {
 }
 .block1 {
     position: absolute;
-    top: 650px;
-    left: 150px;
+    margin: 650px 0px 0px 150px;
 }
 .block2 {
     position: absolute;
-    top: 680px;
-    left: 145px;
+    margin: 680px 0px 0px 145px;
 }
 
