@@ -1,0 +1,42 @@
+body {
+    background-color: lightgray;
+    height: 250vh;
+}
+div.a {
+    height: 50px;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+div.b {
+    height: 50px;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+div.c {
+    height: 50px;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+div.d {
+    height: 50px;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+p {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+ul {
+    list-style-type:none;
+    font-size: 18px;
+    font-family: Arial;
+}
