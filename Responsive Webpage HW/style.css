@@ -21,14 +21,32 @@
 .content2{
     margin: 20px 10px;
 }
-.horizontalline{
+.content3{
+    margin: 20px 10px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+.horizontalline1{
     height: 2px;
     background-color: darkgray;
     margin: 0 10px;
 }
-.aside{
+.horizontalline2{
+    height: 2px;
+    background-color: lightgray;
+    margin: 0 10px;
+}
+.aside1{
     background-color: darkgray;
     color: white;
+}
+.aside2 {
+    background-color: darkgray;
+    color: white;
+    height: 100px;
+    width: 1500px;
+    flex-grow: 1;
 }
 .upper>div{
     margin: 10px;
@@ -42,7 +60,21 @@
     display: flex;
     align-items: flex-start;
 }
-.container {
+.lowercontent {
+    display: flex;
+    align-items: flex-end;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.container3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -52,4 +84,30 @@
     width: 100px;
     margin: 10px;
     background-color: #dadada;
+}
+.blocks {
+    margin: 10px 10px 0 10px;
+    background-color: #dadada;
+}
+.first-block {
+    background-color: darkgray;
+    color: white;
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+}
+.second-block {
+    background-color: darkgray;
+    color: white;
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+}
+.third-block {
+    color: white;
+    margin: 0 10px 0 10px;
+    background-color: darkgray;
+}
+.fourth-block {
+    color: white;
+    margin: 10px 10px 0 10px;
+    background-color: darkgray;
 }
