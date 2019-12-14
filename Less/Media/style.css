@@ -1,0 +1,20 @@
+div.example {
+  background-color: yellow;
+  padding: 20px;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  div.example {
+    background-color: #5a2ad5;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  div.example {
+    background-color: violet;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  div.example {
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */
