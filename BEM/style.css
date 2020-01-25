@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  background-color: #ffd071;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.left-btns {
+  display: inline;
+  padding: 15px 8px;
+}
+.left-btns__button {
+  background-color: #ffd071;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+}
+.left-btns__button:hover {
+  cursor: pointer;
+  color: gray;
+  transition: 0.3s;
+}
+.right-btns {
+  display: inline;
+  padding: 15px 8px;
+}
+.right-btns__button {
+  background-color: #ffd071;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+}
+.right-btns__button:hover {
+  cursor: pointer;
+  color: gray;
+  transition: 0.3s;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+.articles__item {
+  padding: 10px;
+}
+.articles__item__wrap h3 {
+  margin-top: 0;
+}
+.articles__item__wrap img {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.articles__item__wrap p {
+  width: 80%;
+  float: right;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.table-container {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.table-container__table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+.table-container__table td,
+.table-container__table th {
+  border: 1px solid #000000;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

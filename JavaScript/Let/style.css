@@ -1,0 +1,13 @@
+.blue{
+    background-color: blue;
+}
+.red {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+}
+.big{
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+}
