@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main>
 <div class="wrap">
     <label for="title">Article Title</label>
     <input id="title">
@@ -15,10 +16,11 @@
     <textarea id="text"></textarea>
     <br>
     <p id="info"></p>
-    <button class="mainButton" onclick="saveArticle()">Save Article</button>
+    <button class="mainButton btn1" onclick="saveArticle()">Save Article</button>
 </div>
+</main>
 <div>
-    <button class="mainButton" onclick="showArticles()">Show Articles</button>
+    <button class="mainButton btn2" onclick="showArticles()">Show Articles</button>
     <div id="articleContainer">
     </div>
 </div>

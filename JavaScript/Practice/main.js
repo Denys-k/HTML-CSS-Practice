@@ -32,10 +32,25 @@ function emptyFields(title, url, text, info) {
 }
 function showArticles() {
     for(var i=0;i<allArticles.length; i++){
-        let objContainer = document.createElement("articles");
         let obj = allArticles[i];
-        let text = document.createTextNode(obj.title);
-        objContainer.appendChild(text);
+
+        let objTitle = document.createElement("h3");
+        let titleText = document.createTextNode(obj.title);
+        objTitle.appendChild(titleText);
+
+        let objArticle = document.createElement("article");
+        let articleText = document.createTextNode(obj.article);
+        objArticle.appendChild(articleText);
+
+        let objContainer = document.createElement("div");
+        // objContainer.className = "containerWrapper"; // to add class
+        objContainer.appendChild(objTitle);
+        objContainer.appendChild(objArticle);
+
+
         document.getElementById("articleContainer").appendChild(objContainer);
     }
 }
+
+// http://regexlib.com/Search.aspx?k=&c=7&m=5&ps=100 - regular expressions library
+// https://itnext.io/javascript-fundamentals-understanding-regex-fd81891375e0 - theory about regular expressions (regex)
