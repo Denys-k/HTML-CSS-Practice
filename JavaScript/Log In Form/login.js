@@ -1,24 +1,25 @@
 function logIn(){
-    let newUsers = [];
-    let user = {};
+
 
     let fullname = document.getElementById("fullname").value;
     let email = document.getElementById("email").value;
     let pass = document.getElementById("password").value;
-        user.email = email;
-        user.fullname = fullname;
-        user.password = pass;
-        newUsers.push(user);
+
 
     let retrievedUsers = localStorage.getItem("users");
-        if (JSON.stringify(newUsers) === retrievedUsers){
+    retrievedUsers = JSON.parse(retrievedUsers);
+    for (let i =0; i< retrievedUsers.length; i++){
+        let us = retrievedUsers[i];
+        if(us.fullname ===fullname && us.email === email && us.password ===pass){
             location.href = "content.html";
-        }else {
-            document.getElementById("wrongInfo").innerHTML = "Input is incorrect!"
         }
-    setTimeout(function () {
-        document.getElementById("wrongInfo").innerText="";
-    }, 4000);
+        else {
+            document.getElementById("wrongInfo").innerHTML = "Input is incorrect!";
+            setTimeout(function () {
+                document.getElementById("wrongInfo").innerText="";
+            }, 4000);
+        }
+    }
 }
 
 
